@@ -134,4 +134,4 @@ Execute `Final_5G_EC_project.ipynb` in VS Code, JupyterLab, or run sequentially 
 ## Authors & Contributors
 
 - **Subodh Sunil Bhangre** (Original Author)
-- **Antigravity AI / Yash Nalawade** (Validation, Test Suite, & Simulation Hardening)
+- **Yash Nalawade** (Validation, Test Suite, & Simulation Hardening)
