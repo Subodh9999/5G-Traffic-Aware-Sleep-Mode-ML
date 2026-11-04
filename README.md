@@ -99,13 +99,23 @@ The ML-based system is compared against a traditional threshold-based system usi
 pip install -r requirements.txt
 ```
 
-### 2. Run Automated Test Suite
+### 2. Run the Benchmark Simulation
+```bash
+python main.py
+```
+
+### 3. Run Automated Test Suite
 ```bash
 python -m pytest -v
 ```
 
-### 3. Run the Notebook
-Execute `Final_5G_EC_project.ipynb` in VS Code, JupyterLab, or run sequentially from the command line.
+### 4. Launch Interactive Streamlit Dashboard
+```bash
+streamlit run dashboard.py
+```
+
+### 5. Run the Notebook
+Execute `Final_5G_EC_project.ipynb` in VS Code or JupyterLab, or execute cleanly via `python scripts/update_notebook.py`.
 
 ---
 

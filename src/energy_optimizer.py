@@ -269,8 +269,8 @@ def simulate_network_strategy(
         interval_energy = calculate_interval_energy(p, interval_hours)
         total_energy_wh += interval_energy
         
-        # Throughput assumption (e.g., 10 Mbits per user per hour)
-        total_data_bits += users * 10.0
+        # Throughput assumption (10 Mbits per user per hour = 10 * 1e6 bits)
+        total_data_bits += users * 10.0 * 1e6
         
         # Fair outage evaluation based on ACTUAL USER DEMAND
         # 1. Functional outage: demand requires active transmission, but cell is in SLEEP or IDLE
